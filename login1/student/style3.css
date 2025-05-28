@@ -1,0 +1,77 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background-image.jpg') no-repeat center center fixed; /* Replace with your image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Centering the form container */
+  div {
+    background: rgba(255, 255, 255, 0.44); /* White background with slight transparency */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #0c0000;
+    text-align: left;
+  }
+  
+  /* Input field styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 55px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;      /* Cover entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background still */
+    font-family: Arial, sans-serif;
+}
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
